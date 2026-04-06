@@ -1,0 +1,5 @@
+function GlassCard({ as: Tag = 'div', className = '', children }) {
+  return <Tag className={`glass-card ${className}`}>{children}</Tag>
+}
+
+export default GlassCard
